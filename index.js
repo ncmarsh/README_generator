@@ -1,3 +1,6 @@
+const inquirer = require("inquirer");
+const fs = require("fs");
+
 // Array of questions for user
 const questions = [
     {
@@ -58,6 +61,49 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    const md =
+
+        `# ${response.title}
+
+        ## Description
+        ${response.description}
+
+        ## Table of Contents
+
+        1. [Description](#Description)
+        1. [Usage](#Usage)
+        1. [Installation](#Installation)
+        1. [License](#License)
+        1. [Test](#Test)
+        1. [Contribution](#Contribution)
+        1. [Questions](#Questions)
+
+        ## Usage
+        ${response.usage}
+
+        ## Installation
+        ${response.installation}
+
+        ## Contribution
+        ${response.contribution}
+
+        ## Test
+        ${response.test}
+
+        ## License
+        ${response.license}
+
+        ## Questions
+        # ${response.username}
+        # ${response.email}
+        `;
+
+    fs.writeFile("./created/README.md", md, function(err) {
+        if (err) {
+            return console.log(err);
+        }
+        console.log("Success!");
+    })
 }
 
 // function to initialize program
@@ -68,8 +114,7 @@ function init() {
 // function call to initialize program
 init();
 
-// title of my project
-// sections: Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+
 
 // ```md
 // GIVEN a command-line application that accepts user input
