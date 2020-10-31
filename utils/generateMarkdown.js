@@ -2,7 +2,7 @@
 function generateMarkdown(response) {
   return `# ${response.title}
   
-![License](https://img.shields.io/static/v1?label=license&message=${response.license}&color=brightgreen)
+![License](<https://img.shields.io/static/v1?label=license&message=${response.license}&color=brightgreen>)
 
 ## Description
 ${response.description}
