@@ -1,4 +1,5 @@
 const inquirer = require("inquirer");
+const mdFile = require("./utils/generateMarkdown.js")
 const fs = require("fs");
 
 // Array of questions for user
@@ -60,55 +61,25 @@ const questions = [
 ];
 
 // function to write README file
-function writeToFile(fileName, data) {
-    const md =
-
-        `# ${response.title}
-
-        ## Description
-        ${response.description}
-
-        ## Table of Contents
-
-        1. [Description](#Description)
-        1. [Usage](#Usage)
-        1. [Installation](#Installation)
-        1. [License](#License)
-        1. [Test](#Test)
-        1. [Contribution](#Contribution)
-        1. [Questions](#Questions)
-
-        ## Usage
-        ${response.usage}
-
-        ## Installation
-        ${response.installation}
-
-        ## Contribution
-        ${response.contribution}
-
-        ## Test
-        ${response.test}
-
-        ## License
-        ${response.license}
-
-        ## Questions
-        # ${response.username}
-        # ${response.email}
-        `;
-
-    fs.writeFile("./created/README.md", md, function(err) {
+function writeToFile(response) {
+    fs.writeFile("./created/README.md", mdFile(response), function(err) {
         if (err) {
             return console.log(err);
         }
         console.log("Success!");
+        console.log(response);
+        // mdFile(response);
     })
 }
 
 // function to initialize program
 function init() {
+    inquirer.prompt(questions)
+    .then(function(response) {
+        console.log(response);
 
+        writeToFile(response);
+    })
 }
 
 // function call to initialize program
