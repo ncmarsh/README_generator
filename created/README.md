@@ -1,9 +1,9 @@
-# pewpew
+# Elephants
   
-![License](<https://img.shields.io/static/v1?label=license&message=Apache 2.0&color=brightgreen>)
+![License](<https://img.shields.io/static/v1?label=license&message=The Unilicense&color=brightgreen>)
 
 ## Description
-pewpewpew
+Elephant finder app
 
 ## Table of Contents
 
@@ -11,12 +11,12 @@ pewpewpew
 1. [Usage](#Usage)
 1. [Installation](#Installation)
 1. [Contribution](#Contribution)
-1. [Test](#Test)
+1. [Tests](#Tests)
 1. [License](#License)
 1. [Questions](#Questions)
 
 ## Usage
-pew?
+Watch out for their feet!
 
 ## Installation
 In order to use this project, please use the following command:
@@ -26,19 +26,19 @@ npm i
 ## Contribution
 If you are interested in contributing to my project, please note:
 
-pews
+Fork!
 
-## Test
+## Tests
 In order to test this project, please use the following command:
 
 npm test
 
 ## License
-Apache 2.0
+The Unilicense
 
 ## Questions
 If you have any questions about my project, I can be reached via:
 
-GitHub: pewpew
+GitHub: [@elephantopolis](https://github.com/elephantopolis)
 
-Email: pewpewpew
+Email: elephants@gmail.com
