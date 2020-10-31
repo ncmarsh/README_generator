@@ -36,9 +36,9 @@ const questions = [
         message: "What kind of license will your project have?",
         name: "license",
         choices: [
-            "Apache License 2.0",
-            "GNU General Public License",
-            "MIT License",
+            "Apache 2.0",
+            "GNU GPL",
+            "MIT",
             "Mozilla Public License",
             "The Unilicense"
         ]
@@ -68,7 +68,6 @@ function writeToFile(response) {
         }
         console.log("Success!");
         console.log(response);
-        // mdFile(response);
     })
 }
 
