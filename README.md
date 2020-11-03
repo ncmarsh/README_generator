@@ -52,7 +52,7 @@ Once you're finished, you'll find your generated README in the following folder:
 
 ## Demo
 
-<!-- ![Demo](assets/readme_generator_demo.gif) -->
+![Demo](assets/README_demo.gif)
 
 ## Method
 

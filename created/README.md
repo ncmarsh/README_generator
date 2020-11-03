@@ -3,7 +3,7 @@
 ![License](<https://img.shields.io/static/v1?label=license&message=Mozilla Public License&color=brightgreen>)
 
 ## Description
-My application helps users locate and identify dinosaurs around them
+This application helps users find and identify dinosaurs around them.
 
 ## Table of Contents
 
@@ -16,7 +16,7 @@ My application helps users locate and identify dinosaurs around them
 1. [Questions](#Questions)
 
 ## Usage
-Please be aware of your surroundings
+Be aware of your surroundings!
 
 ## Installation
 In order to use this project, please use the following command:
@@ -31,7 +31,7 @@ In order to test this project, please use the following command:
 ## Contribution
 If you are interested in contributing to my project, please note:
 
-Clone and submit pull request
+Clone and submit pull request.
 
 ## License
 Mozilla Public License
@@ -42,5 +42,3 @@ If you have any questions about my project, I can be reached via:
 GitHub: [@ncmarsh](https://github.com/ncmarsh)
 
 Email: email@email.com
-
-##### [Return to Top of Page](#Dinosaur finder)
