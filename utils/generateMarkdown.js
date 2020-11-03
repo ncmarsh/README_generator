@@ -23,12 +23,12 @@ ${response.usage}
 ## Installation
 In order to use this project, please use the following command:
 
-  ${response.installation}
+    ${response.installation}
 
 ## Tests
 In order to test this project, please use the following command:
 
-  ${response.test}
+    ${response.test}
 
 ## Contribution
 If you are interested in contributing to my project, please note:
@@ -44,8 +44,6 @@ If you have any questions about my project, I can be reached via:
 GitHub: [@${response.username}](https://github.com/${response.username})
 
 Email: ${response.email}
-
-##### [Return to Top of Page](#${response.title})
 `;
 }
 
