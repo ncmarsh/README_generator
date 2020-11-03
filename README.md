@@ -98,4 +98,4 @@ This is a personal project; no contributions are required at this time.
 
 No license granted.
 
-##### [Return to Top of Page](#Code-Quiz)
+##### [Return to Top of Page](#README-generator)
