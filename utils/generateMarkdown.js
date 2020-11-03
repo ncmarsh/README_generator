@@ -12,8 +12,8 @@ ${response.description}
 1. [Description](#Description)
 1. [Usage](#Usage)
 1. [Installation](#Installation)
-1. [Contribution](#Contribution)
 1. [Tests](#Tests)
+1. [Contribution](#Contribution)
 1. [License](#License)
 1. [Questions](#Questions)
 
@@ -23,17 +23,17 @@ ${response.usage}
 ## Installation
 In order to use this project, please use the following command:
 
-${response.installation}
+  ${response.installation}
+
+## Tests
+In order to test this project, please use the following command:
+
+  ${response.test}
 
 ## Contribution
 If you are interested in contributing to my project, please note:
 
 ${response.contribution}
-
-## Tests
-In order to test this project, please use the following command:
-
-${response.test}
 
 ## License
 ${response.license}
@@ -44,6 +44,8 @@ If you have any questions about my project, I can be reached via:
 GitHub: [@${response.username}](https://github.com/${response.username})
 
 Email: ${response.email}
+
+##### [Return to Top of Page](#${response.title})
 `;
 }
 
