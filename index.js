@@ -75,7 +75,6 @@ function writeToFile(response) {
 function init() {
     inquirer.prompt(questions)
     .then(function(response) {
-        console.log(response);
 
         writeToFile(response);
     })
