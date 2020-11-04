@@ -1,9 +1,9 @@
 # Dinosaur finder
   
-![License](<https://img.shields.io/static/v1?label=license&message=Mozilla Public License&color=brightgreen>)
+![License](<https://img.shields.io/static/v1?label=license&message=GNU GPL&color=brightgreen>)
 
 ## Description
-This application helps users find and identify dinosaurs around them.
+My application helps users locate and identify dinosaurs they find around them.
 
 ## Table of Contents
 
@@ -34,7 +34,7 @@ If you are interested in contributing to my project, please note:
 Clone and submit pull request.
 
 ## License
-Mozilla Public License
+GNU GPL
 
 ## Questions
 If you have any questions about my project, I can be reached via:
