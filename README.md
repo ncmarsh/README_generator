@@ -7,7 +7,7 @@
 
 Projects take time. Save some of that time by using this easy-to-use, professional README generator!
 
-![README Screenshot](assets/README_sample.png)
+![README Sample Screenshot](assets/README_sample.png)
 
 ## Table of Contents
 
@@ -65,8 +65,8 @@ Once you're finished, you'll find your generated README in the following folder:
 
 To begin this project, I first created my files, including a .gitignore, and ran:
 
-    npm init
-    npm i inquirer
+    $ npm init
+    $ npm i inquirer
 
 These prompts establish the npm inquirer package. 
 
