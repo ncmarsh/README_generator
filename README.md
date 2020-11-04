@@ -7,7 +7,7 @@
 
 Projects take time. Save some of that time by using this easy-to-use, professional README generator!
 
-<!-- ![README Screenshot](assets/home_screenshot.png) -->
+![README Screenshot](assets/README_sample.png)
 
 ## Table of Contents
 
@@ -58,6 +58,7 @@ Once you're finished, you'll find your generated README in the following folder:
 
 <video width="320" height="240" controls>
     <source src="./assets/README_demo4.mp4" type="video/mp4">
+    </source>
 </video>
 
 ## Method
