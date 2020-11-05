@@ -52,7 +52,8 @@ Once you're finished, you'll find your generated README in the following folder:
 
 ## Demo
 
-[![View the demo](./assets/README_demo2.gif)](https://www.youtube.com/watch?v=Minem3tS36w)
+![View the demo](./assets/README_demo2.gif)
+[Click to view full demo](https://www.youtube.com/watch?v=Minem3tS36w)
 
 ## Method
 
