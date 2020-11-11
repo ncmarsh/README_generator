@@ -85,7 +85,7 @@ To further this project, I would like to customize the contact question. I would
 ## Links
 
 - [Project Repository](https://github.com/ncmarsh/README_generator)
-- [View the walkthrough](#Demo)
+- [View the demo](./assets/README_demo2.gif)
 
 ## Contact
 
