@@ -38,9 +38,10 @@ This command line application is designed to save you time writing your README, 
 
 Follow these steps to get started:
 
-After cloning the repository to your local computer, you'll want to install its dependencies (inquirer). You can do this by running:
+After cloning the repository to your local computer, you'll want to install Node.js and the dependencies (inquirer) needed to run this application. You can do this by running:
 
-    $ npm i
+    $ npm init
+    $ npm install
 
 Then to start the program, you'll run:
 
